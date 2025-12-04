@@ -16,7 +16,7 @@ green_button = Button(root, text="Green", background='green')
 
 
 #Add a label
-label = Label(root, text="CHANGE ME!")
+label = Label(root, text="This is a stoplight.")
 
 # Place widgets in window (with pack function!)
 label.pack()
