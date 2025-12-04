@@ -4,10 +4,10 @@ from tkmacosx import Button
 
 # Create the main window
 root = Tk()
-root.title("Enter Title Here")
+root.title("Three Buttons")
 
 #Set size of window
-root.geometry("300x150")
+root.geometry("600x300")
 
 # Create buttons
 red_button = Button(root, text="Red", background='red')
@@ -17,12 +17,16 @@ green_button = Button(root, text="Green", background='green')
 
 #Add a label
 label = Label(root, text="This is a stoplight.")
+label2 = Label(root, text="Here, I can add a bunch of text into the letterbox!")
+background("white")
 
 # Place widgets in window (with pack function!)
 red_button.pack()
 yellow_button.pack()
 green_button.pack()
 label.pack()
+
+label2.pack()
 
 
 # Start the GUI event loop
