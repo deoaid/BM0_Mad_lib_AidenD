@@ -18,7 +18,7 @@ green_button = Button(root, text="Green", background='green')
 #Add a label
 label = Label(root, text="This is a stoplight.")
 label2 = Label(root, text="Here, I can add a bunch of text into the letterbox!")
-T = Text(root, 'black', 'white', 5, 100, 100, 'sans')
+T = Text(root, length = 20, width = 20, bg = 'black', bd = true)
 
 
 # Place widgets in window (with pack function!)
@@ -26,9 +26,8 @@ red_button.pack()
 yellow_button.pack()
 green_button.pack()
 label.pack()
-
 label2.pack()
-
+T.pack()
 
 # Start the GUI event loop
 root.mainloop()
