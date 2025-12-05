@@ -18,7 +18,7 @@ green_button = Button(root, text="Green", background='green')
 #Add a label
 label = Label(root, text="This is a stoplight.")
 label2 = Label(root, text="Here, I can add a bunch of text into the letterbox!")
-T = Text(root, length = 20, width = 20, bg = 'black', bd = True)
+T = Text(root,length = 20,width = 20, bg = 'black', bd = True)
 
 
 # Place widgets in window (with pack function!)
